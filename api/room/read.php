@@ -44,6 +44,6 @@ if ($num > 0) {
         "msg" => "Unsuccessfully!",
         "data" => null
     ];
-    header("http/1.0 200 Unsuccess");
+    header("http/1.0 200 Unsuccessfully");
     echo json_encode($rooms, JSON_PRETTY_PRINT);
 }
